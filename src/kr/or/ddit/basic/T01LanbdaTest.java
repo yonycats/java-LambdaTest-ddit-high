@@ -34,11 +34,12 @@ public class T01LanbdaTest {
 		// 람다식을 사용하는 경우
 		Thread th2 = new Thread(
 						() -> {
-							for (int i = 1; i <= 10; i++) {
+							for (int i=1; i<=10; i++) {
 								System.out.println("람다-" + i);
 							}
 						});
 			th2.start();
+			
+			
 		}
-	
 }

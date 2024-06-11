@@ -22,6 +22,8 @@ public class T02LambdaTest {
 			System.out.println("반갑습니다.\n람다식으로 구현하는 방식입니다.");
 		lam2.test();
 		
+		
+		
 		System.out.println("-----------------------------------");
 		
 
